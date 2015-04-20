@@ -1,3 +1,5 @@
+/*global describe:false, it:false*/
+
 var countSubstring = require('./app.js');
 require('chai').should();
 

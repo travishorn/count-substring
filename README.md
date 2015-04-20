@@ -13,7 +13,7 @@ A function to return the number of instances of a string within another string.
 
     countSubstring('foo', 'bar'); // 0
     countSubstring('foo bar', 'bar'); // 1
-    countSubstring('foo bar baz bar', 'bar') // 2
+    countSubstring('foo bar baz bar', 'bar'); // 2
 
 ## Tests
 
