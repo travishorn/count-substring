@@ -1,6 +1,6 @@
 {
   "name": "count-substring",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A function to return the number of instances of a string within another string.",
   "main": "app.js",
   "scripts": {
