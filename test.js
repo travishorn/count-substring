@@ -17,4 +17,12 @@ describe('count-substring', function() {
   it('Returns 2 on two instances', function() {
     countSubstring('foo bar baz bar', 'bar').should.equal(2);
   });
+
+  it('Works with slashes in substring', function() {
+    countSubstring('foo bar', '/bar/').should.equal(0);
+  })
+
+  it('Works with slashes in string and substring', function() {
+    countSubstring('foo /bar/ bar', '/bar/').should.equal(1);
+  })
 });
