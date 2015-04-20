@@ -1,0 +1,23 @@
+{
+  "name": "count-substring",
+  "version": "1.0.0",
+  "description": "A function to return the number of instances of a string within another string.",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/travishorn/count-substring.git"
+  },
+  "author": "Travis Horn <horn.travis@gmail.com> (http://travishorn.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/travishorn/count-substring/issues"
+  },
+  "homepage": "https://github.com/travishorn/count-substring",
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.4"
+  }
+}
