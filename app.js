@@ -1,7 +1,5 @@
-module.exports = function(str, substr) {
-  'use strict';
-
-  var matches = str.match(new RegExp(substr, 'g'));
+module.exports = function countSubstring(str, substr) {
+  const matches = str.match(new RegExp(substr, 'g'));
 
   return matches == null ? 0 : matches.length;
 };
